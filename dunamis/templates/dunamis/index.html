@@ -1,0 +1,50 @@
+
+
+
+
+
+{% extends 'dunamis/base.html' %}
+
+{% block content %} 
+    {% include 'dunamis/menu.html' %}
+    
+
+
+
+    <section id="wrapper">
+        <h1>JOBS BOARD</h1>
+        <p>These will be listing all open jobs</p>
+
+        <br /><br />
+        <div>
+            {% for job in jobs %}
+                <div>
+                    <h4>{{ job.title }} &nbsp;&nbsp;&nbsp; <span id="salary">${{job.salary}}/hr</span></h4>
+                    <img src="{{job.banner.url}}" style="width: 50%" />
+
+                    <p>{{job.status}}</p>
+                    <br />
+                    <p>{{ job.description}}</p>
+                    <br /><br />
+                </div>
+            {% endfor %}
+        </div>
+
+
+    </section>
+    
+
+
+    
+
+    
+    
+    
+
+
+
+
+
+
+    
+{% endblock %}

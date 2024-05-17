@@ -1,0 +1,118 @@
+
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    padding: auto;
+    color: white;
+
+}
+
+
+
+
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+header{
+    background-color: skyblue;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+nav {
+    padding: 10px;
+            background-color: skyblue;
+            text-align: left;
+            font-weight: black;
+}
+nav a {
+    text-decoration: none;
+            color: black;
+}
+
+nav a:hover {
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: skyblue;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+}
+
+
+.about-intro{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.about-intro p{
+    line-height: 2;
+}
+
+
+#mission-vision{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+#mission {
+    width: 46%;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+#mission h3{
+    color: skyblue;
+}
+
+#mission p{
+    text-align: justify;
+    line-height: 2;
+}
+
+
+#vision {
+    width: 46%;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+#vision h3{
+    color: skyblue;
+}
+
+footer {
+    border-top: 1px dotted #fff;
+}
+
+footer p {
+    text-align: center;
+}
